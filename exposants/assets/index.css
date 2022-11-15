@@ -1,0 +1,30 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(255, 241, 241);
+    background-color: back;
+    background-image: url(../asset/images/fond.jpg);
+    background-repeat: no-repeat;
+    color: aliceblue;
+    background-size: cover;
+}
+.colorViolet{
+    background-color: #943EAA;
+    }
+    .colorBlue{
+    background-color: #5B93BE;
+    }
+    .bgOpaque{
+        background: rgba(0, 0, 0, 0.700);
+    
+    }
+    .textBlue{
+        color: #5B93BE;
+
+    }
+    .textViolet{
+        color: #943EAA;
+
+    }
+    .marginTitle{
+        margin : 10% 25% 0 25%;
+    }

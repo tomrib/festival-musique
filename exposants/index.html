@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exposants</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="../exposants/asset/index.css">
+
+</head>
+
+<body>
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col">
+
+
+        <nav class="navbar navbar-dark bg-black">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">La Manu Festival</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+              aria-labelledby="offcanvasDarkNavbarLabel">
+              <div class="offcanvas-header">
+                <p class="offcanvas-title h5" id="offcanvasDarkNavbarLabel">Menu</p>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Billetterie</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">artistes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">localisation</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </section>
+  
+  <section class="container">
+    <div class="row">
+      <div class="col">
+        <p class="h1 text-center rounded-2 colorViolet py-1 m-5">Les exposants</p>
+        <div class="card-group">
+          <div class="card m-5 bgOpaque">
+            <img src="./asset/images/bar.jpg" class="img-thumbnail card-img-top" alt="image bar">
+            <div class="card-body">
+              <p class="card-title h2 textBlue">KopparberG</p>
+              <p class="card-text">Plusieurs bars KopparberG disponibles sur place pour vous proposer des boissons soft
+                et alcoolisés</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn colorViolet text-light" data-bs-toggle="modal" data-bs-target="#leBar">
+                Voir la carte
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="leBar" tabindex="-1" aria-labelledby="leBar" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content bgOpaque text-center">
+                    <div class="modal-header">
+                      <p class="modal-title  fs-5 textViolet fs-2 h2" id="leBar">BAR - KOPPARBERG</p>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="textBlue h2">BIERE HEINEKEIN - 4.00€</p>
+                      <p>Biere blonde de 33 cl.</p>
+                      <p class="textBlue h2">BIERE AMBREE - 5.00€ </p>
+                      <p>Biere ambrée de 33cl.</p>
+                      <p class="textBlue h2">SOFT - 2.00€ </p>
+                      <p>Boissons 33cl : Fanta, Coca-cola, Orangina, Perrier, Sprite.</p>
+                      <p class="textBlue h2">EVIAN - 1.50€ </p>
+                      <p>Bouteille d'eau 50cl.</p>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn colorViolet text-light" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card m-5 bgOpaque">
+            <img src="./asset/images/burger.png" class="img-thumbnail card-img-top" alt="photo food truck burger">
+            <div class="card-body">
+              <p class="card-title h2 textBlue">Le kiosque à burger</p>
+              <p class="card-text">Ce stand vous proposera de la restauration rapide.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn colorViolet text-light" data-bs-toggle="modal"
+                data-bs-target="#kiosqueBurger">
+                Voir la carte
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="kiosqueBurger" tabindex="-1" aria-labelledby="kiosqueBurger"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content bgOpaque text-center">
+                    <div class="modal-header">
+                      <p class="modal-title  fs-5 textViolet fs-2 h2" id="kiosqueBurger">LE KIOSQUE A BURGER</p>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="textBlue h2">Le Tasty - 10.00€</p>
+                      <p> Steak 150g, Cheddar, Salade, Tomate, Oignons, Cornichon + Frites maison.</p>
+                      <p class="textBlue h2">Le Cow-Boy - 12.00€ </p>
+                      <p> 2 Steaks 150g, Œuf, Cheddar, Tomate, Oignons frits, Cornichon + Frites maison.</p>
+                      <p class="textBlue h2">Le Country - 12.00€ </p>
+                      <p> Filet de Poulet, Cheddar, Salade, Tomate, Oignons + Frites maison.</p>
+                      <p class="textBlue h2">L'Avocado - 12.00€ </p>
+                      <p> Poulet pané, Avocat, Cheddar, Salade, Tomate, Oignons + Frites maison.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn colorViolet text-light" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card m-5 bgOpaque">
+            <img src="./asset/images/kiosque-a-pizza.jpg" class="img-thumbnail card-img-top "
+              alt="photo kiosque pizzeria">
+            <div class="card-body">
+              <p class="card-title h2 textBlue">Le kiosque à pizza</p>
+              <p class="card-text">Ici Luigi sera à votre disposition pour vous preparer ses meilleurs pizzas</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn colorViolet text-light" data-bs-toggle="modal"
+                data-bs-target="#kiosquePizza">
+                Voir la carte
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="kiosquePizza" tabindex="-1" aria-labelledby="kiosquePizza" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content bgOpaque text-center">
+                    <div class="modal-header">
+                      <p class="modal-title fs-5 textViolet fs-2 h2" id="kiosquePizza">LE KIOSQUE A PIZZA</p>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="textBlue h2">Reine - 10.00€</p>
+                      <p>Tomate, fromage, jambon, champignons.
+                      </p>
+                      <p class="textBlue h2">Jambon - 12.00€ </p>
+                      <p> Tomate, fromage, jambon, oeuf.</p>
+                      <p class="textBlue h2">4 Formages - 12.00€ </p>
+                      <p>Tomate , assortiment de 4 fromages.</p>
+                      <p class="textBlue h2">Oriental - 12.00€ </p>
+                      <p>Tomate, fromage, merguez, champignons, oeuf.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn colorViolet text-light" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card m-5 bgOpaque">
+            <img src="./asset/images/DSC_0410.jpg" class="img-thumbnail card-img-top" alt="photo boutique">
+            <div class="card-body">
+              <p class="card-title h2 textBlue">La boutique</p>
+              <p class="card-text">Sur ce stand, vous retrouverez nos t-shirt "La Manu Festival</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn colorViolet text-light" data-bs-toggle="modal"
+                data-bs-target="#laBoutique">
+                Voir la carte
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="laBoutique" tabindex="-1" aria-labelledby="laBoutique" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content bgOpaque text-center">
+                    <div class="modal-header">
+                      <p class="modal-title  fs-5 textViolet fs-2 h2" id="laBoutique"> La Boutique</p>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="textBlue h2">T-SHIRT HOMME - 35.00€</p>
+                      <p>100% coton, taille unique.</p>
+                      <p class="textBlue h2">T-SHIRT FEMME - 25.00€ </p>
+                      <p>100% coton, taille unique.</p>
+                      <p class="textBlue h2">T-SHIRT GARCON - 25.00€ </p>
+                      <p>100% coton, de 10 à 16ans.</p>
+                      <p class="textBlue h2">T-SHIRT FILLE - 20.00€ </p>
+                      <p>100% coton, de 10 à 16ans.</p>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn colorViolet text-light" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
