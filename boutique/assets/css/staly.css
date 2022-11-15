@@ -1,0 +1,33 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(255, 241, 241);
+    background-color: black;
+    background-image: url(/boutique/assets/image/fond.jpg);
+    background-repeat: no-repeat;
+    color: aliceblue;
+    background-size: cover;
+}
+
+.btn {
+    background-color: #943EAA;
+    border: 1px solid #943EAA;
+}
+
+.btn:hover {
+    color: #f7f7f7;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #f6f6f7;
+}
+
+.title-b {
+    background-color: #943EAA;
+    text-align: center;
+    margin: 5% 15%;
+    width: 50%;
+    
+}
+
+.card-b {
+    background-color: rgba(0, 0, 0, 0.692);
+
+}
