@@ -29,5 +29,9 @@ body {
 
 .card-b {
     background-color: rgba(0, 0, 0, 0.692);
-
+}
+/*!!footer*/
+footer{
+    display: flex;
+    background-color: black;
 }
