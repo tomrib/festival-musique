@@ -129,6 +129,33 @@ body {
     background-color: rgba(0, 0, 0, 0.692);
 }
 
+/*Merci*/
+/*Couleur de texte Merci*/
+.myTextColor{
+    color:#943eaa;
+    text-shadow: 2px 2px 2px #000000,
+                 4px 4px 5px #666565;
+}
+/*img animation*/
+.animationImg{
+    animation:rotationImg 3s  linear;
+
+}
+
+@keyframes rotationImg {
+0%{
+    transform: rotateZ(0deg);
+    
+}
+50%{
+
+}
+100%{
+    transform: rotateZ(360deg);
+
+}
+}
+
 /*!!footer*/
 footer {
     display: flex;
